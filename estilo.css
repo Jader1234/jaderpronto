@@ -1,0 +1,69 @@
+body{
+    background: gray;
+    background-repeat: no-repeat;
+    height: 80%; 
+    background-position: center;
+    background-size: cover;
+}
+
+a#pag{
+    font-size: 70px;
+    border-top-color: coral;
+    color: white;
+}
+
+h1 {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border: 5px solid white;
+}
+h4 {
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    font-family: "serif", Times, arial;
+    border: 5px solid green;
+  }
+
+h3 {
+    font-size: 90px;
+    color: red;
+    text-align: center;
+    font-family: "Arial", Times, serif;
+    border: 5px solid blue;
+  }
+  table#table_center{
+    font-size: 60px;
+    color: red;
+  }
+
+p, li {
+  font-size: 40px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: white;
+} 
+
+*{ box-sizing: border-box;}
+
+
+#teste{
+    height: 500px;
+    width: 50%;
+    border: thin solid black;
+}
+
+#teste2{
+  height: 100px;
+  width: 20%;
+  border: thin solid red;
+  display: block;
+}
+
+@media screen and (max-width: 1000px){
+    #teste{
+      height: ;
+    }
+}
